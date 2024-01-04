@@ -1,11 +1,12 @@
 package org.example;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Objects;
 
 public class HasExactly {
-    public Collection<String> values;
+    public Collection<String> values = new ArrayList<>();
     public String value;
 
 

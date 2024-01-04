@@ -21,13 +21,14 @@ public class HasExactlyTest {
 
         // передал 2 значения и оба равны value
 //        testHasExactly.setValue("a");
-//        testHasExactly.values.add("a");
-//        testHasExactly.values.add("a");
+//        testHasExactly.getValues().add("a");
+//        testHasExactly.getValues().add("a");
 
         // передал 1 значение и оно равно value
-        testHasExactly.setValue("a");
-        testHasExactly.values.add("a");
+//        testHasExactly.setValue("a");
+//        testHasExactly.values.add("a");
+
         Assert.assertEquals(testHasExactly.values.size(), 1 );
-        testHasExactly.hasExactly(testHasExactly.getValues(), testHasExactly.getValue());
+        testHasExactly.hasExactly(testHasExactly.values, testHasExactly.value);
     }
 }
